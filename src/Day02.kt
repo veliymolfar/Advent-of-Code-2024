@@ -15,12 +15,12 @@ fun main() {
     check(part2(listOf("9 7 6 2 1")) == 0)
 
     // Or read a large test input from the `src/Day02_test.txt` file:
-    val testInput = readInput("Day02_test")
+    val testInput = readInputLines("Day02_test")
     check(part1(testInput) == 2)
     check(part2(testInput) == 4)
 
     // Read the input from the `src/Day02.txt` file.
-    val input = readInput("Day02")
+    val input = readInputLines("Day02")
     part1(input).println()
     part2(input).println()
 }
